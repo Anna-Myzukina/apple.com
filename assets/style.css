@@ -168,6 +168,13 @@ table {
     grid-area: rt4;
     background: #8fa url(../assets/img/promo_supplier_responsibility.jpg) 50%/cover no-repeat;
   }
+  .rest-shot>a{
+    height: 100%;
+    display: block;
+  }
+  .rest-shot>a:hover{
+    cursor: pointer;
+  }
   
   main .banner {
     color:#fff;
@@ -239,6 +246,14 @@ table {
     border : none;
     background-color: rgba(0,0,0,0);
   }
+  .menu-bar input:focus{
+    background: white;
+    border-radius: 20px;
+    background-size: 12px 12px;
+    width: 95%;
+    margin-left: .3em;
+    transition-duration: 0.3s;
+  }
   
   .menu-bar button:hover {
     cursor: pointer;
@@ -279,9 +294,8 @@ table {
     height: 31px;
     width: 960px;
   }
-  .third a:hover{
-    text-decoration: underline;
-    color: #000;
+  div:hover .third{
+        background-position: bottom;
   }
   /*====footer====*/
   footer {
